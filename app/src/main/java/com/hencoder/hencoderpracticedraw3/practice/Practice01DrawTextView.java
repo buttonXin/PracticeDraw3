@@ -33,5 +33,10 @@ public class Practice01DrawTextView extends View {
 
         // 使用 drawText() 来绘制文字
         // 文字坐标： (50, 100)
+
+        text = "这样好吗";
+        paint.setLetterSpacing(1);
+        canvas.drawText(text , 50 , 100 , paint);
+
     }
 }
